@@ -236,14 +236,6 @@ public class CallLogDatabaseHelper {
     }
 
     /**
-     * Add the {@link Status.SOURCE_TYPE} Column to the VoicemailStatus Database.
-     */
-    private void upgradeToVersion3(SQLiteDatabase db) {
-        db.execSQL("ALTER TABLE " + Tables.VOICEMAIL_STATUS + " ADD " + Status.SOURCE_TYPE +
-                " TEXT");
-    }
-
-    /**
      * Perform the migration from the contacts2.db (of the latest version) to the current calllog/
      * voicemail status tables.
      */

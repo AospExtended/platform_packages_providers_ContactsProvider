@@ -19,4 +19,5 @@
   <string name="group_title_family">"Aile"</string>
   <string name="group_title_friends">"Arkadaşlar"</string>
   <!--preset contact info: name,number,email-->
+  <string name="preset_contact_detail_info_name">Segr.Telefon</string>
 </resources>

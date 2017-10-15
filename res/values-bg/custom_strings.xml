@@ -19,4 +19,5 @@
   <string name="group_title_family">"Семейство"</string>
   <string name="group_title_friends">"Приятели"</string>
   <!--preset contact info: name,number,email-->
+  <string name="preset_contact_detail_info_name">Тел. Секретар</string>
 </resources>
